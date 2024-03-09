@@ -38,7 +38,3 @@ Execute the program with specific datasets to generate PDF reports:
 - Ensure there are no NaN values in the first data row of the dataset.
 - If encountering an error related to reading an entire line due to `bufsize` limitations, increase `buf_size` in `texmf.cnf`. This file is typically located at `C:\texlive\2022\texmf.cnf`. Append the following configuration: `buf_size = 500000`. Adjust the size accordingly if your dataset is larger.
 - If you have more than 10 classes > globalVar.h increase the number of THRESHOLD_CAT
-- 
-
-## Gallery
-Explore generated reports and visualizations in the gallery section to see examples of insights EDA_Latex can provide.
